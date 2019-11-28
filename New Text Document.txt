@@ -1,0 +1,12 @@
+git clone " ten mien " : tải về
+
+git status : kiểm tra 
+
+git add --all
+
+git commit : note lại 
+
+git push : tải lên
+
+git pull : cập nhật file
+
