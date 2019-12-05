@@ -51,7 +51,7 @@
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(164, 65);
             this.button4.TabIndex = 1;
-            this.button4.Text = "Sách";
+            this.button4.Text = "Thủ Thư";
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 

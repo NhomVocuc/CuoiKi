@@ -1,4 +1,4 @@
-Tạo form ban đầu với nội dung là : 2 BUTTON : Quản lý sách , Quản lý người dùng
+Tạo form ban đầu với nội dung là : 2 BUTTON : Quản lý sách , Quản lý người dùng ==> DONE
 Tạo form cho người quản lí sách với đầy đủ datagridview , button: thêm , sửa , xóa , thông tin user.
 Tạo form cho người dùng giống với quản lí nhưng bỏ đi các button: thêm , sửa , xóa.
 Tạo form dành cho việc thêm sách với đầy đủ các thông tin trong đề.
