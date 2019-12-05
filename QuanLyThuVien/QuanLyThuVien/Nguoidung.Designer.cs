@@ -143,7 +143,7 @@
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
             this.button1.Location = new System.Drawing.Point(979, 66);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(113, 39);
+            this.button1.Size = new System.Drawing.Size(113, 61);
             this.button1.TabIndex = 30;
             this.button1.Text = "SỬA";
             this.button1.UseVisualStyleBackColor = true;
@@ -151,9 +151,9 @@
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
-            this.button2.Location = new System.Drawing.Point(700, 66);
+            this.button2.Location = new System.Drawing.Point(700, 62);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(113, 39);
+            this.button2.Size = new System.Drawing.Size(113, 65);
             this.button2.TabIndex = 31;
             this.button2.Text = "THÊM";
             this.button2.UseVisualStyleBackColor = true;
@@ -171,9 +171,9 @@
             // button3
             // 
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
-            this.button3.Location = new System.Drawing.Point(700, 136);
+            this.button3.Location = new System.Drawing.Point(700, 137);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(113, 39);
+            this.button3.Size = new System.Drawing.Size(113, 66);
             this.button3.TabIndex = 33;
             this.button3.Text = "XOÁ";
             this.button3.UseVisualStyleBackColor = true;
