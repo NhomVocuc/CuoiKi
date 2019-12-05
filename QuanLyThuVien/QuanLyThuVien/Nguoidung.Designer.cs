@@ -39,13 +39,16 @@
             this.label2 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.button3 = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // label7
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
-            this.label7.Location = new System.Drawing.Point(47, 269);
+            this.label7.Location = new System.Drawing.Point(13, 173);
             this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(199, 29);
@@ -56,7 +59,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
-            this.label6.Location = new System.Drawing.Point(47, 152);
+            this.label6.Location = new System.Drawing.Point(13, 98);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(166, 29);
@@ -67,7 +70,7 @@
             // 
             this.fname.AutoSize = true;
             this.fname.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
-            this.fname.Location = new System.Drawing.Point(47, 98);
+            this.fname.Location = new System.Drawing.Point(13, 62);
             this.fname.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.fname.Name = "fname";
             this.fname.Size = new System.Drawing.Size(188, 29);
@@ -77,7 +80,7 @@
             // email
             // 
             this.email.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.email.Location = new System.Drawing.Point(268, 211);
+            this.email.Location = new System.Drawing.Point(222, 136);
             this.email.Margin = new System.Windows.Forms.Padding(4);
             this.email.Multiline = true;
             this.email.Name = "email";
@@ -87,7 +90,7 @@
             // pass
             // 
             this.pass.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.pass.Location = new System.Drawing.Point(268, 152);
+            this.pass.Location = new System.Drawing.Point(222, 99);
             this.pass.Margin = new System.Windows.Forms.Padding(4);
             this.pass.Multiline = true;
             this.pass.Name = "pass";
@@ -97,7 +100,7 @@
             // user
             // 
             this.user.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.user.Location = new System.Drawing.Point(268, 98);
+            this.user.Location = new System.Drawing.Point(222, 62);
             this.user.Margin = new System.Windows.Forms.Padding(4);
             this.user.Multiline = true;
             this.user.Name = "user";
@@ -108,7 +111,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
-            this.label1.Location = new System.Drawing.Point(47, 211);
+            this.label1.Location = new System.Drawing.Point(13, 136);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(121, 29);
@@ -118,7 +121,7 @@
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.textBox1.Location = new System.Drawing.Point(268, 269);
+            this.textBox1.Location = new System.Drawing.Point(222, 173);
             this.textBox1.Margin = new System.Windows.Forms.Padding(4);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
@@ -129,7 +132,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
-            this.label2.Location = new System.Drawing.Point(135, 29);
+            this.label2.Location = new System.Drawing.Point(12, 9);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(361, 39);
             this.label2.TabIndex = 29;
@@ -138,28 +141,50 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
-            this.button1.Location = new System.Drawing.Point(385, 324);
+            this.button1.Location = new System.Drawing.Point(979, 66);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(113, 54);
+            this.button1.Size = new System.Drawing.Size(113, 39);
             this.button1.TabIndex = 30;
-            this.button1.Text = "HUỶ";
+            this.button1.Text = "SỬA";
             this.button1.UseVisualStyleBackColor = true;
             // 
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
-            this.button2.Location = new System.Drawing.Point(111, 324);
+            this.button2.Location = new System.Drawing.Point(700, 66);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(113, 54);
+            this.button2.Size = new System.Drawing.Size(113, 39);
             this.button2.TabIndex = 31;
             this.button2.Text = "THÊM";
             this.button2.UseVisualStyleBackColor = true;
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(6, 232);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowHeadersWidth = 51;
+            this.dataGridView1.RowTemplate.Height = 24;
+            this.dataGridView1.Size = new System.Drawing.Size(1198, 439);
+            this.dataGridView1.TabIndex = 32;
+            // 
+            // button3
+            // 
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
+            this.button3.Location = new System.Drawing.Point(700, 136);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(113, 39);
+            this.button3.TabIndex = 33;
+            this.button3.Text = "XOÁ";
+            this.button3.UseVisualStyleBackColor = true;
             // 
             // Nguoidung
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(659, 406);
+            this.ClientSize = new System.Drawing.Size(1207, 676);
+            this.Controls.Add(this.button3);
+            this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label2);
@@ -173,6 +198,7 @@
             this.Controls.Add(this.user);
             this.Name = "Nguoidung";
             this.Text = "Nguoidung";
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -190,5 +216,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.Button button3;
     }
 }
