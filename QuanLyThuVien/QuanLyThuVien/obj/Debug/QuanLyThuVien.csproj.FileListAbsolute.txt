@@ -1,0 +1,10 @@
+D:\CĐVĐ\C#\QuanLiThuVien\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.csprojAssemblyReference.cache
+D:\CĐVĐ\C#\QuanLiThuVien\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.Properties.Resources.resources
+D:\CĐVĐ\C#\QuanLiThuVien\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.GenerateResource.cache
+D:\CĐVĐ\C#\QuanLiThuVien\QuanLyThuVien\QuanLyThuVien\bin\Debug\QuanLyThuVien.exe.config
+D:\CĐVĐ\C#\QuanLiThuVien\QuanLyThuVien\QuanLyThuVien\bin\Debug\QuanLyThuVien.exe
+D:\CĐVĐ\C#\QuanLiThuVien\QuanLyThuVien\QuanLyThuVien\bin\Debug\QuanLyThuVien.pdb
+D:\CĐVĐ\C#\QuanLiThuVien\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.QuanLy.resources
+D:\CĐVĐ\C#\QuanLiThuVien\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.exe
+D:\CĐVĐ\C#\QuanLiThuVien\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.pdb
+D:\CĐVĐ\C#\QuanLiThuVien\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.nguoidung.resources

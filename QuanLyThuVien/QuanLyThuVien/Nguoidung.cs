@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace QuanLyThuVien
 {
-    public partial class DangNhap : Form
+    public partial class Nguoidung : Form
     {
-        public DangNhap()
+        public Nguoidung()
         {
             InitializeComponent();
         }
