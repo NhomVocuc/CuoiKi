@@ -161,11 +161,11 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(6, 232);
+            this.dataGridView1.Location = new System.Drawing.Point(6, 220);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(1198, 439);
+            this.dataGridView1.Size = new System.Drawing.Size(1198, 451);
             this.dataGridView1.TabIndex = 32;
             // 
             // button3
@@ -177,6 +177,7 @@
             this.button3.TabIndex = 33;
             this.button3.Text = "XOÁ";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // Nguoidung
             // 

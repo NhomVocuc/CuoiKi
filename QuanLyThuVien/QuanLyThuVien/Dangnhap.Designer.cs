@@ -40,7 +40,7 @@
             // btnRegister
             // 
             this.btnRegister.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.btnRegister.Location = new System.Drawing.Point(220, 148);
+            this.btnRegister.Location = new System.Drawing.Point(225, 148);
             this.btnRegister.Name = "btnRegister";
             this.btnRegister.Size = new System.Drawing.Size(123, 39);
             this.btnRegister.TabIndex = 13;
@@ -50,7 +50,7 @@
             // btnCancel
             // 
             this.btnCancel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.btnCancel.Location = new System.Drawing.Point(419, 148);
+            this.btnCancel.Location = new System.Drawing.Point(424, 148);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(120, 39);
             this.btnCancel.TabIndex = 12;
@@ -60,7 +60,7 @@
             // btnLogin
             // 
             this.btnLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.btnLogin.Location = new System.Drawing.Point(12, 148);
+            this.btnLogin.Location = new System.Drawing.Point(23, 148);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(137, 39);
             this.btnLogin.TabIndex = 11;

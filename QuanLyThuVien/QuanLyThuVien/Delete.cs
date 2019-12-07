@@ -10,10 +10,10 @@ namespace Abacre
 {
     class Delete
     {
-        public int Deletet_Item_Categories(int itemcat)
+        public int Deletet_Item_Categories(int User)
         {
             nhancautruyvan a = new nhancautruyvan();
-            SqlCommand myCommand = (SqlCommand)a.getquery("delete from [ItemCat] where itemcatid="+itemcat+"");
+            SqlCommand myCommand = (SqlCommand)a.getquery("delete from [User] where itemcatid="+itemcat+"");
             try
             {
                 int t = (int)myCommand.ExecuteNonQuery();
@@ -29,7 +29,7 @@ namespace Abacre
         public int Delete_Item_by_itemid(int itemid)
         {
             nhancautruyvan a = new nhancautruyvan();
-            SqlCommand myCommand = (SqlCommand)a.getquery("delete from [Item] where itemid=" + itemid + "");
+            SqlCommand myCommand = (SqlCommand)a.getquery("delete from [User] where itemid=" + itemid + "");
              try
             {
             int t = (int)myCommand.ExecuteNonQuery();
