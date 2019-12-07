@@ -4,7 +4,6 @@ D:\CĐVĐ\C#\QuanLiThuVien\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.c
 D:\CĐVĐ\C#\QuanLiThuVien\QuanLyThuVien\QuanLyThuVien\bin\Debug\QuanLyThuVien.exe.config
 D:\CĐVĐ\C#\QuanLiThuVien\QuanLyThuVien\QuanLyThuVien\bin\Debug\QuanLyThuVien.exe
 D:\CĐVĐ\C#\QuanLiThuVien\QuanLyThuVien\QuanLyThuVien\bin\Debug\QuanLyThuVien.pdb
-D:\CĐVĐ\C#\QuanLiThuVien\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.QuanLy.resources
 D:\CĐVĐ\C#\QuanLiThuVien\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.exe
 D:\CĐVĐ\C#\QuanLiThuVien\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.pdb
 D:\CĐVĐ\C#\QuanLiThuVien\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.nguoidung.resources
@@ -21,3 +20,5 @@ E:\Project\QuanLiThuVien\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.pdb
 E:\Project\QuanLiThuVien\QuanLyThuVien\QuanLyThuVien\bin\Debug\QuanLyThuVien.exe.config
 E:\Project\QuanLiThuVien\QuanLyThuVien\QuanLyThuVien\bin\Debug\QuanLyThuVien.exe
 E:\Project\QuanLiThuVien\QuanLyThuVien\QuanLyThuVien\bin\Debug\QuanLyThuVien.pdb
+D:\CĐVĐ\C#\QuanLiThuVien\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.Dangnhap.resources
+D:\CĐVĐ\C#\QuanLiThuVien\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.Sach.resources
