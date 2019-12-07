@@ -7,33 +7,29 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace bt1910
+namespace QuanLyThuVien
 {
-    class ConnectDB_SQL
+    class connectDB
     {
         public static string StringconnerDB = null;
         private SqlConnection conn = null;
         public SqlCommand SQLcomand = null;
         public string[] x = new string[2];
         public string[] fail = new string[1];
-        public ConnectDB_SQL()
+        public connectDB()
 
         {
             conn = new SqlConnection();
         }
 
-
-
-
-
         public Boolean Fun_connectDB(string User, string Password)
         {
             fail[0] = "fail";
-            string connectionString = @"server=PHONG\SQLEXPRESS; database=QuanLyThuVien; user id=sa; password=123";
+            string connectionString = @"server=KOS; database=QuanLyThuVien; user id=sa; password=123";
             conn.ConnectionString = connectionString;
             conn.Open();
             StringconnerDB = String.Copy(connectionString);
-            string query = "select workerid, isadmin from worker where login='" + User + "'and Password='" + Password + "'";
+            string query = "select * from quanly where login='" + User + "'and pass='" + Password + "'";
             SQLcomand = new SqlCommand(query, conn);
             SqlDataReader reader = SQLcomand.ExecuteReader();
             while (reader.Read())
@@ -56,7 +52,7 @@ namespace bt1910
 
         public object Fun_connectDB()
         {
-            string connectionString = @"server=PHONG\SQLEXPRESS; database=QuanLyThuVien; user id=sa; password=123";
+            string connectionString = @"server=KOS; database=QuanLyThuVien; user id=sa; password=123";
             conn.ConnectionString = connectionString;
             conn.Open();
             return conn;

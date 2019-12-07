@@ -53,14 +53,14 @@
     <Compile Include="Dangnhap.Designer.cs">
       <DependentUpon>Dangnhap.cs</DependentUpon>
     </Compile>
-    <Compile Include="Delete.cs" />
+    <Compile Include="nhancautruyvan.cs" />
+    <Compile Include="Query.cs" />
     <Compile Include="Sach.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Sach.Designer.cs">
       <DependentUpon>Sach.cs</DependentUpon>
     </Compile>
-    <Compile Include="Insert.cs" />
     <Compile Include="Nguoidung.cs">
       <SubType>Form</SubType>
     </Compile>
