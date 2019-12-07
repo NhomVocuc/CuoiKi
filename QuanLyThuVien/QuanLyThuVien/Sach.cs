@@ -16,5 +16,18 @@ namespace QuanLyThuVien
         {
             InitializeComponent();
         }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Query add = new Query(this);
+            add.Show();
+            load();
+
+        }
     }
 }
