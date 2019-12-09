@@ -27,7 +27,34 @@ namespace QuanLyThuVien
             Query add = new Query(this);
             add.Show();
             load();
+        }
 
+        private void button2_Click(object sender, EventArgs e)
+        {
+            int t1 = Convert.ToInt32(dataGridView1.CurrentRow.Cells[0].Value);
+            string t2 = Convert.ToString(dataGridView1.CurrentRow.Cells[1].Value);
+            /*dataGridView1.CurrentRow.Cells[4].Value = t1 - t2;
+            dataGridView1.CurrentRow.Cells[3].Value = t1;
+            dataGridView1.CurrentRow.Cells[2].Value = "";*/
+            QuanLyThuVien.Query u = new QuanLyThuVien.Query();
+            u.update_inv_cat(t1, t2);
+            MessageBox.Show("Update Thành Công");
+            load();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            int t1 = Convert.ToInt32(dataGridView1.CurrentRow.Cells[0].Value);
+            QuanLyThuVien.Query del = new QuanLyThuVien.Query();
+            del.Delete_InvCat(t1);
+            MessageBox.Show("Đã Xoáa");
+            load();
+
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

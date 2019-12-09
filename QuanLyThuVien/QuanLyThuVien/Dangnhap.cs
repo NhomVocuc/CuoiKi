@@ -16,5 +16,12 @@ namespace QuanLyThuVien
         {
             InitializeComponent();
         }
+
+        private void btnRegister_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form3 reg = new Form3();
+            reg.Show();
+        }
     }
 }
