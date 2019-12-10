@@ -20,8 +20,20 @@ namespace QuanLyThuVien
         private void btnRegister_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Form3 reg = new Form3();
+            Nguoidung reg = new Nguoidung();
             reg.Show();
+        }
+
+        private void btnLogin_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Sach reg = new Sach();
+            reg.Show();
+        }
+
+        private void btnCancel_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

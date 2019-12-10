@@ -57,6 +57,7 @@
             this.btnCancel.TabIndex = 12;
             this.btnCancel.Text = "Huỷ";
             this.btnCancel.UseVisualStyleBackColor = true;
+            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
             // btnLogin
             // 
@@ -67,6 +68,7 @@
             this.btnLogin.TabIndex = 11;
             this.btnLogin.Text = "Đăng Nhập";
             this.btnLogin.UseVisualStyleBackColor = true;
+            this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
             // txtPass
             // 

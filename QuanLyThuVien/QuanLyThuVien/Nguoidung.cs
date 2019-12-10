@@ -25,5 +25,12 @@ namespace QuanLyThuVien
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Dangnhap reg = new Dangnhap();
+            reg.Show();
+        }
     }
 }
